@@ -22,7 +22,7 @@ client.on('message', message => {
             message.channel.send('PREDDITOR ALERT');
         }
     }
-    if(message.content.toLowerCase() == "4chan rules") {
+    if(message.content.toLowerCase().includes("4chan rules")) {
         message.member.roles.remove(message.guild.roles.cache.find(role => role.name === "Predditor"));
     }
 });
