@@ -1,0 +1,30 @@
+{
+  "name": "predditbot",
+  "version": "1.0.3",
+  "description": "Simple discord bot",
+  "main": "index.js",
+  "dependencies": {
+    "argparse": "^1.0.10",
+    "discord.js": "^12.2.0",
+    "punycode": "^2.1.1",
+    "resolve-from": "^4.0.0",
+    "shebang-command": "^2.0.0",
+    "shebang-regex": "^3.0.0",
+    "slice-ansi": "^2.1.0",
+    "sprintf-js": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harracuda/predditbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harracuda/predditbot/issues"
+  },
+  "homepage": "https://github.com/harracuda/predditbot#readme"
+}
